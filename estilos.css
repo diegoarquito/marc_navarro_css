@@ -1,0 +1,33 @@
+/* REGLA 1: */
+h1 {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* REGLA 2 */
+  h2 {
+    color: blueviolet;
+    text-align: right;
+    font-size: 24px;
+    background-color: aqua;
+    padding: 10px;
+  }
+  
+  /* REGLA 3 */
+  p {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  /* REGLA 4 */
+  .fortnite-tabla {
+    width: 100px;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* REGLA 5 */
+  .fortnite-tabla th,
+  .fortnite-tabla td 
