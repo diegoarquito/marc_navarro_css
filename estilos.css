@@ -1,68 +1,61 @@
-/* REGLA 1: */
+/* REGLA 1 */
 h1 {
-    background-color: chocolate;
-    color: white;
-    padding: 10px;
-  }
+  text-align: center;
+  background-color:chocolate;
+  color: white;
+  padding: 10px;
   
-  /* REGLA 2 */
-  h2 {
-    color: blueviolet;
-    text-align: right;
-    font-size: 24px;
-    background-color: aqua;
-    padding: 10px;
-  }
-  
-  /* REGLA 3 */
-  p {
-    line-height: 1.5;
-    text-align: justify;
-    font-size: 16px;
-  }
-  
-  /* REGLA 4 */
-  .fortnite-tabla {
-    width: 100px;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-/* Regla 5 */
+}
+
+/* REGLA 2 */
+h2 {
+  color: blueviolet;
+  text-align: right;
+  font-size: 24px;
+  background-color: aqua;
+  padding: 10px;
+}
+/* REGLA 3 */
+p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 16px;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+/* REGLA 4 */
+.fortnite-tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+/* REGLA 5 */
 .fortnite-tabla th, .fortnite-tabla td {
   border: 2px solid black;
   padding: 10px;
   text-align: center;
 }
-
-/* Regla 6 */
+/* REGLA 6 */
 .fortnite-tabla th {
   background-color: #3498db;
   color: white;
 }
-
-/* Regla 7 */
+/* REGLA 7 */
 img {
   width: 200px;
-  border: 2px solid blue;
-  border-radius: 8px; /* Bordes redondeados */
-  margin-right: 40%;
+  border: solid blue 10px;
+  border-radius: 10%;
   margin-left: 40%;
+  margin-right: 40%;
+  
 }
-
-/* Regla 8 */
+/* REGLA 8 */
 strong {
   font-weight: 900;
   background-color: red;
   color: black;
 }
-
-/* Regla 9 */
+/* REGLA 9 */
 * {
   background-color: cadetblue;
-}
-
-/* Regla 10 */
-p {
-  font-family: 'Roboto Mono', monospace;
 }
